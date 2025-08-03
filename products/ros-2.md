@@ -29,22 +29,22 @@ releases:
 -   releaseCycle: 'kilted'
     codename: 'Kilted Kaiju'
     releaseDate: 2025-05-23
-    eol: 2026-12-01
+    eol: 2026-12-31
 
 -   releaseCycle: 'jazzy'
     codename: 'Jazzy Jalisco'
     releaseDate: 2024-05-23
-    eol: 2029-05-01
+    eol: 2029-05-31
 
 -   releaseCycle: 'iron'
     codename: 'Iron Irwini'
     releaseDate: 2023-05-23
-    eol: 2024-11-01
+    eol: 2024-12-04
 
 -   releaseCycle: 'humble'
     codename: 'Humble Hawksbill'
     releaseDate: 2022-05-23
-    eol: 2027-05-01
+    eol: 2027-05-31
 
 -   releaseCycle: 'galactic'
     codename: 'Galactic Geochelone'
@@ -54,33 +54,33 @@ releases:
 -   releaseCycle: 'foxy'
     codename: 'Foxy Fitzroy'
     releaseDate: 2020-06-05
-    eol: 2023-05-01
+    eol: 2023-06-20
 
 -   releaseCycle: 'eloquent'
     codename: 'Eloquent Elusor'
     releaseDate: 2019-11-22
-    eol: 2020-11-01
+    eol: 2020-11-30
 
 -   releaseCycle: 'dashing'
     codename: 'Dashing Diademata'
     releaseDate: 2019-05-31
-    eol: 2021-05-01
+    eol: 2021-05-31
 
 -   releaseCycle: 'crystal'
     codename: 'Crystal Clemmys'
     releaseDate: 2018-12-14
-    eol: 2019-12-01
+    eol: 2019-12-31
 
 -   releaseCycle: 'bouncy'
     codename: 'Bouncy Bolson'
     releaseDate: 2018-07-02
-    eol: 2019-07-01
+    eol: 2019-07-31
     link: https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html
 
 -   releaseCycle: 'ardent'
     codename: 'Ardent Apalone'
     releaseDate: 2017-12-08
-    eol: 2018-12-01
+    eol: 2018-12-31
     link: https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html
 
 ---
@@ -90,7 +90,7 @@ releases:
 > support for real-time code and embedded system hardware. As ROS 1 will no longer be [supported past
 > May 2025](/ros), it is highly recommended for new projects to start using ROS 2.
 
-## Release Cadence
+Release Cadence:
 
 - There is a ROS 2 release every year on May 23rd.
 - Releases on even numbered years will be a LTS release, supported for five years.
@@ -104,5 +104,4 @@ Side effects of the release policy:
 - LTS releases will not share a common Ubuntu release with any previous releases.
 - ROS 2 releases will not add support for new Ubuntu distributions after their release date.
 
-These simplified rules and side effects are subject to change with changes to the underlying Ubuntu
-release policy.
+These simplified rules and side effects are subject to change with changes to the underlying Ubuntu release policy.
