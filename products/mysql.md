@@ -36,10 +36,18 @@ identifiers:
 # For LTS: see https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
 # For Non-LTS (Innovation): eoas(x)/eol(x) = releaseDate(x+1)
 releases:
-  - releaseCycle: "9.6"
-    releaseDate: 2026-01-20
+  - releaseCycle: "9.7"
+    releaseDate: 2026-04-21
     eoas: false # releaseDate(x+1)
     eol: false # releaseDate(x+1)
+    latest: "9.7.0"
+    latestReleaseDate: 2026-04-21
+    link: https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html
+
+  - releaseCycle: "9.6"
+    releaseDate: 2026-01-20
+    eoas: 2026-04-21
+    eol: 2026-04-21
     latest: "9.6.0"
     latestReleaseDate: 2025-12-23
     link: https://dev.mysql.com/doc/relnotes/mysql/9.6/en/news-9-6-0.html
